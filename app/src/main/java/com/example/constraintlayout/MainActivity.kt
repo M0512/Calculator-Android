@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             val secondName=binding.etlastName.text.toString()
             val birthDate= binding.etbirthDate.text.toString()
             val country= binding.etcountry.text.toString()
-binding.tedisplay.setText("my name is "+firstName+" "+secondName+" I was born on "+birthDate+" i live in "+country)
+binding.tedisplay.setText("Hie your name is "+firstName+" "+secondName+" you were born on "+birthDate+" and you are curently a resident of "+country)
 
         }
 
